@@ -9,6 +9,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+}
 .hero{
     background-image: url('../resources/Banner\ Image.png');
     background-position: center center;
@@ -41,7 +47,6 @@
 }
 .new-year p{
     color: #F00;
-    font-family: 'Inter', sans-serif;
     font-size: 24px;
     margin-top: 10px;
 }
@@ -76,9 +81,7 @@
 } 
 .wel-tex p{
     color: rgba(255, 255, 255, 0.80);
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
-    line-height: 1.8;
     margin-top: 5px;
 } 
 .button{
@@ -90,9 +93,228 @@
     background-color: #F00;
     padding: 5px 10px;
     margin-top: 15px;
-} 
-.wel-img{
 }
 .wel-img img{
     max-width: 250px;
 }
+.hotel{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+.hotel p{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.7;
+    text-transform: capitalize;
+}
+.hotel p .h-color{
+    color: #F00;
+}
+.best-offer{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+.offer1{
+    margin-top: 50px;
+    max-width: 360px;
+}
+.offer1 h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer1 h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.offer1 p{
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.offer2 img{
+    max-width: 280px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 10px solid #F00;
+}
+.offer3{
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.offer3 h3{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer3 p{
+    font-size: 18px;
+}
+
+
+.holidays{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+.holidays h4{
+    color: #070211;
+    font-family: 'Inter', sans-serif; 
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidays h2{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+.red{
+    color: #F00;
+}
+.holidays p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.image-part{
+    display: flex;
+    width: 100%;
+}
+.image-part .img1{
+    max-width: 685px;
+    z-index: 5;
+}
+.image-part .img2{
+    width: 230px;
+    height: 230px;
+    margin-top: 70px;
+    margin-left: -115px;
+    z-index: 10;
+}
+.image-part .img3{
+    width: 350px;
+    margin-left: -115px;
+    height: 406px;
+    z-index: 4;
+}
+.img4{
+    margin-top: -250px;
+    max-width: 100%;
+}
+
+.portfolio{
+    margin-top: 50px;
+}
+.portfolio h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.portfolio p{
+    font-size: 20px;
+    max-width: 90%;
+}
+.flex img{
+    max-width: 350px;
+}
+.flex{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.subscribe{
+    border-radius: 15px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+.subscribe img{
+}
+.subscribe h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.subscribe p{
+    text-align: center;
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.subsc{
+    padding: 15px 0 25px 0;
+
+}
+.subsc input{
+    font-size: 20px;
+    padding: 20px;
+}
+.subsc .i-text{
+    border-radius: 40% 0 0 40%;
+    border-right: none;
+}
+.subsc .i-sub{
+    margin-left: -4px;background-color: #F00;
+    border-left: none;
+    border-radius: 0 40% 40% 0;
+}
+footer{
+    background: #070211;
+    padding: 30px 0;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+.f1-left{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.number , .website{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.footer2{
+    text-align: center;
+    padding: 20px 0;
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
+}
+.foote3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.foote3 p{
+    color: #FFF;
+    font-size: 24px;
+}
+
+
+
