@@ -5,7 +5,8 @@
     
 }
 .container{
-    width: 82%;
+    /* width: 82%; */
+    width: 1320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -61,10 +62,10 @@ p{
     margin-top: 50px;
 }
 .welcome{
+    margin-top: 80px;
     background-image: url('../resources/Vectorrr.png');
     background-size: cover;
     border-radius: 15px;
-    margin: 50px 0;
     display: flex;
     justify-content:space-between;
     padding: 50px 100px 50px 80px
@@ -101,7 +102,7 @@ p{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
     padding: 100px 0;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .hotel p{
     color: #070211;
@@ -116,13 +117,14 @@ p{
 .best-offer{
     margin-top: 50px;
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
 
 }
 .offer1{
     margin-top: 50px;
-    max-width: 360px;
+    max-width: 370px;
+    /* padding: 5px 20px 5px 0; */
 }
 .offer1 h4{
     color: #F00;
@@ -139,11 +141,8 @@ p{
 }
 .offer1 p{
     padding-top: 15px;
-    font-size: 18px;
-    line-height: 1.7;
 }
 .offer2 img{
-    max-width: 280px;
     padding: 30px;
     border-radius: 50%;
     border: 10px solid #F00;
@@ -153,17 +152,19 @@ p{
     font-family: 'Inter', sans-serif;
 }
 .offer3 h3{
+    padding: 20px 0;
     color: #F00;
     font-size: 48px;
     font-weight: 700;
 }
 .offer3 p{
-    font-size: 18px;
+    padding: 15px 0;
 }
-
-
+.offer3 img{
+    padding: 15px 0;
+}
 .holidays{
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     width: 100%;
 }
@@ -188,29 +189,26 @@ p{
 .image-part{
     display: flex;
     width: 100%;
+    margin-top: 40px;
 }
 .image-part .img1{
-    max-width: 685px;
     z-index: 5;
 }
 .image-part .img2{
-    width: 230px;
     height: 230px;
-    margin-top: 70px;
-    margin-left: -115px;
+    margin-top: 100px;
+    margin-left: -50px;
     z-index: 10;
 }
 .image-part .img3{
-    width: 350px;
-    margin-left: -115px;
-    height: 406px;
+    margin-left: -105px;
+    height: 450px;
     z-index: 4;
 }
 .img4{
     margin-top: -250px;
     max-width: 100%;
 }
-
 .portfolio{
     margin-top: 50px;
 }
@@ -230,9 +228,6 @@ p{
     font-size: 20px;
     max-width: 90%;
 }
-.flex img{
-    max-width: 350px;
-}
 .flex{
     margin-top: 20px;
     display: flex;
@@ -245,8 +240,6 @@ p{
     margin-top: 50px;
     text-align: center;
     padding: 20px 0;
-}
-.subscribe img{
 }
 .subscribe h2{
     color: #070211;
@@ -262,7 +255,6 @@ p{
 }
 .subsc{
     padding: 15px 0 25px 0;
-
 }
 .subsc input{
     font-size: 20px;
@@ -301,7 +293,9 @@ footer{
 }
 .footer2{
     text-align: center;
-    padding: 20px 0;
+}
+.footer2 img{
+    padding: 20px 10px;
 }
 hr{
     background: rgba(255, 255, 255, 0.15);
