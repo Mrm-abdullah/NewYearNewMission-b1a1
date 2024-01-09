@@ -148,11 +148,10 @@ p{
     border: 10px solid #F00;
 }
 .offer3{
-    margin-top: 50px;
+    padding: 70px;
     font-family: 'Inter', sans-serif;
 }
 .offer3 h3{
-    padding: 20px 0;
     color: #F00;
     font-size: 48px;
     font-weight: 700;
@@ -178,6 +177,7 @@ p{
     color: #070211;
     font-size: 72px;
     font-weight: 900;
+    padding: 10px 0;
 }
 .red{
     color: #F00;
@@ -210,7 +210,7 @@ p{
     max-width: 100%;
 }
 .portfolio{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .portfolio h4{
     color: #F00;
@@ -223,6 +223,7 @@ p{
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    padding: 10px 0;
 }
 .portfolio p{
     font-size: 20px;
@@ -233,13 +234,16 @@ p{
     display: flex;
     gap: 20px;
 }
+.flex img:hover{
+    border-radius: 50%;
+}
 
 .subscribe{
     border-radius: 15px;
     background: rgba(255, 0, 0, 0.05);
     margin-top: 50px;
     text-align: center;
-    padding: 20px 0;
+    padding: 60px 0;
 }
 .subscribe h2{
     color: #070211;
@@ -254,7 +258,7 @@ p{
     margin-left: auto;
 }
 .subsc{
-    padding: 15px 0 25px 0;
+    padding: 15px 0 0 0;
 }
 .subsc input{
     font-size: 20px;
@@ -270,6 +274,7 @@ p{
     border-radius: 0 40% 40% 0;
 }
 footer{
+    margin-top: 60px;
     background: #070211;
     padding: 30px 0;
 }
